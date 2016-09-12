@@ -12,7 +12,7 @@ git clone https://github.com/brendanfrick2016/Cards.git
 
 ## Before you work on a file
 #### Check for updates (If you don't do this you'll have to do a merge request which gets messy) 
-git pull *from the Cards folder*
+git pull (from the Cards folder)
 
 ## When you're done working on a file
 #### Add files 
@@ -25,7 +25,7 @@ git add file-name
 git commit -m "type a message here or git will get mad"
 
 #### 'Upload' your changes
-git push *If you get an error here its likely a merge error and follow next step, or text em*
+git push (If you get an error here its likely a merge error and follow next step, or text em)
 
 #### Merge (if there are conflicting copies, either you didn't pull or I made changes since you last did)
 git merge -m "type something"
