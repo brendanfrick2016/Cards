@@ -8,6 +8,7 @@ public class deck {
 	
     	public deck(boolean aceHigh)
     	{
+    		System.out.println("HELLO");
     		avoidSuit = ' ';
     		supportSuit = ' ';
     		
