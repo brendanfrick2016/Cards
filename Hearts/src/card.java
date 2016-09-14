@@ -13,29 +13,7 @@ public class card {
     		num =n;
     		suit = s;
     	}
-    	public card(String s)
-    	{
-    		char c = s.charAt(0);
-    		if(c == 'K')
-    			num = 13;
-    		else if(c=='Q')
-    			num = 12;
-    		else if(c=='J')
-    			num = 11;
-    		else if(c=='A')
-    			num = 14;
-    		else
-    			num = (int)c;
-    		
-    		suit = s.charAt(1);
-    		
-    		if(s.charAt(1) == 0)
-    		{
-    			num = 10;
-    			suit = s.charAt(2);
-    		}
-    	}
-    	
+
     	public String toString()
     	{
     		if(num==13)

@@ -14,4 +14,6 @@ public class deck extends groupOfCards{
 			al.add(getNextCard());
 		return al;
 	}
+	
+
 }

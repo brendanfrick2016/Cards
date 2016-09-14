@@ -22,6 +22,15 @@ public class groupOfCards {
 			cards.add(i);
 	}
 	
+	public boolean has(card c)
+	{
+		for(int i = 0; i<cards.size(); i++)
+		{
+			if(cards.get(i).toString().equals(c.toString()))
+				return true;
+		}
+		return false;
+	}
 	
 	public card removeCard(card c)
 	{
@@ -55,7 +64,6 @@ public class groupOfCards {
 		}
 	}
 	
-	// ** better way to do this
 	public void shuffle()
 	{
 		for(int x = 5000; x>0; x--)
