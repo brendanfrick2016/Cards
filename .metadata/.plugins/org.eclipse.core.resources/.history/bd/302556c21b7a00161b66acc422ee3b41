@@ -1,0 +1,10 @@
+
+public class player {
+	
+	private hand myHand;
+	
+	public player(hand hd)
+	{
+		myHand = hd;
+	}
+}

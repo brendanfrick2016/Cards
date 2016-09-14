@@ -55,6 +55,7 @@ public class groupOfCards {
 		}
 	}
 	
+	// ** better way to do this
 	public void shuffle()
 	{
 		for(int x = 5000; x>0; x--)

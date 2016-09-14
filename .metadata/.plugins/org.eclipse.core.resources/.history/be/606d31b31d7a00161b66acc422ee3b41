@@ -1,0 +1,23 @@
+import java.util.*;
+public class deck extends groupOfCards{
+	
+	public deck()
+	{
+		super();
+		shuffle();
+	}
+	
+	public ArrayList<card> getHand()
+	{
+		ArrayList<card> al = new ArrayList<card>();
+		for(int i = 0; i < 13; i++)
+			al.add(getNextCard());
+		return al;
+	}
+
+	public shuffleDeck()
+	{
+		
+	}
+
+}

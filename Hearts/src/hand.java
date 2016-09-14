@@ -10,6 +10,7 @@ public class hand extends groupOfCards{
 		sort();
 	}
 	
+  
 	public card underCut(card winner)
 	{
 		ArrayList<card> mySuit = getSuit(winner.suit);
@@ -22,5 +23,4 @@ public class hand extends groupOfCards{
 		}
 			return prev;
 	}
-
 }

@@ -7,9 +7,5 @@ public class heartsRunner {
 		deck d = new deck();
 		hand h = new hand(d);
 		System.out.println(h.underCut(new card("3S")));
-		
-		
-		
-		
 	}
 }

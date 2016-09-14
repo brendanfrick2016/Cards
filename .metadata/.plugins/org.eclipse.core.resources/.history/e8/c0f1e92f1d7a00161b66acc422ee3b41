@@ -1,0 +1,18 @@
+
+public class player {
+	
+	private hand myHand;
+	
+	public player(hand hd)
+	{
+		myHand = hd;
+	}
+	
+	public double score_hand()
+	{
+		
+		
+		
+		return 100.0;
+	}
+}
